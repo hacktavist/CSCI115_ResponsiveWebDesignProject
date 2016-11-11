@@ -16,7 +16,7 @@
 	width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px), screen and (orientation: landscape) {
 	/* Tablet Screen */
 	/* This allows for different classes to set different layout from desktop */
 	.col-t-1 {
