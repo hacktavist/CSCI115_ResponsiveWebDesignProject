@@ -1,3 +1,7 @@
+#Demo
+* link to my hosted website that shows the visual grid: hacktaviststudios.com/grid-framework-test/visualGrid.html
+  * index.html has nothing yet, but when it is updated just navigate to hacktaviststudios.com/grid-framework-test
+
 # TODO
 
 * ~~create grid framework~~
@@ -8,6 +12,7 @@
 * ~~find website to update~~
   * going to use this site https://compuzonecomputers.com/index.html
 * create updated website
+
 
 # CSCI115_ResponsiveWebDesignProject
 
