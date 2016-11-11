@@ -1,6 +1,6 @@
 #Demo
-* link to my hosted website that shows the visual grid: hacktaviststudios.com/grid-framework-test/visualGrid.html
-  * index.html has nothing yet, but when it is updated just navigate to hacktaviststudios.com/grid-framework-test
+* link to my hosted website that shows the visual grid: http://hacktaviststudios.com/grid-framework-test/visualGrid.html
+  * index.html has nothing yet, but when it is updated just navigate to http://hacktaviststudios.com/grid-framework-test
 
 # TODO
 
