@@ -1,0 +1,15 @@
+/* styles for visualization */
+
+* {
+	box-sizing: border-box;
+}
+
+[class*="col-"] {
+	border: 2px blue;
+	border-style: dotted solid;
+	background-color: lightblue;
+}
+
+div {
+	text-align: center;
+}

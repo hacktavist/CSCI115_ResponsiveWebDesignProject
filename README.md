@@ -1,3 +1,8 @@
+# Items Done
+
+* created grid framework
+* laid out visual aid for the grid
+
 # CSCI115_ResponsiveWebDesignProject
 
 
