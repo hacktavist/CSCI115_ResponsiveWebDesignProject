@@ -3,7 +3,8 @@
 * ~~create grid framework~~
 * ~~lay out visual aid for the grid~~
 * make framework responsive
-* find website to update
+* ~~find website to update~~
+  * going to use this site https://compuzonecomputers.com/index.html
 * create updated website
 
 # CSCI115_ResponsiveWebDesignProject
