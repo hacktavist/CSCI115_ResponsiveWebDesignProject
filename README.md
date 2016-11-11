@@ -2,7 +2,9 @@
 
 * ~~create grid framework~~
 * ~~lay out visual aid for the grid~~
-* make framework responsive
+* ~~make framework responsive~~
+  * ~~make desktop, tablet, mobile sizes~~
+  * take into account orientation
 * ~~find website to update~~
   * going to use this site https://compuzonecomputers.com/index.html
 * create updated website
