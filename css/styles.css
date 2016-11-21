@@ -1,7 +1,102 @@
-.nav {
+/**********************************************************************\ 
+   Was trying to use BEM naming convention and OOCSS coding standards
+   but I have not used them before and due to time I went back to
+   what I know
+ **********************************************************************/
+/* Author: Nic Patterson; */
 
+/* Element Modifiers */
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: inline-block;
+	text-align: center;
+	padding: 16px 16px;
+}
+
+
+
+/* Class Modifiers */
+.nav {
+	background-color: #EDEDED;
+}
+
+.dd {
+	display: inline-block;
+}
+
+a:hover, .dd:hover .dbtn {
+	background-color: #b5b5b5 /*#acdacd*/;
+}
+
+.dd-content {
+	min-width: 100px;
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: -20px 20px 20px 0px rgba(0,0,0,0.2);
+}
+
+.dd-content a {
+	color: black;
+	padding: 5px 10px;
+	display: block;
+	text-align: left;	
+}
+
+.dd-content a:hover {
+	background-color: #adcadc;
+}
+.dd:hover .dd-content {
+	display:block;
+}
+
+ul.stores {
+	background-color: lightgoldenrodyellow;
+	margin: 10px 15px;
+}
+
+.store-location {
+	float:none;
+	text-align: center;
+	font-size: 1.8em;
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+.store-info {
+	float:none;
+	text-align: center;
+}
+
+.decorated-list {
+	list-style-type: disc;
+	float:none;
+}
+
+.welcome {
+	text-align: center;
+}
+
+/***********************************************************\ 
+  Everything below this comment is taken out of the html
+  This was BEM stuff and provided to much hassle to learn
+  in the time I have
+************************************************************/
 .nav__links {
 	float: left;
 	text-align: center;
@@ -9,6 +104,7 @@
 	padding: 16px 16px;
 }
 
+/* Not used in final product, was trying to adhere to BEM but not enough time */
 .nav--no-textdecoration{
 	text-decoration: none;
 }
