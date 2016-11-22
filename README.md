@@ -1,6 +1,6 @@
 #Demo
 * link to my hosted website that shows the visual grid: http://hacktaviststudios.com/grid-framework-test/visualGrid.html
-  * index.html has nothing yet, but when it is updated just navigate to http://hacktaviststudios.com/grid-framework-test
+* link to my hosted website that is for the final site refactor: http://hacktaviststudios.com/grid-framework-test
 
 # TODO
 
@@ -11,8 +11,10 @@
   * ~~take into account orientation~~
 * ~~find website to update~~
   * going to use this site https://compuzonecomputers.com/index.html
-* create updated website
+* ~~create updated website~~
 
+
+For some reason I was not hit with inspiration for this project; I enjoyed making the grid but the refactor wasn't enjoyable and I did not do a very good job with it. Maybe later I will come back to it.
 
 # CSCI115_ResponsiveWebDesignProject
 
