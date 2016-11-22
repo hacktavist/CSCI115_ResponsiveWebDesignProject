@@ -12,7 +12,6 @@ a {
 	color: black;
 }
 
-
 ul {
 	list-style-type: none;
 	padding: 0;
@@ -91,6 +90,21 @@ ul.stores {
 .welcome {
 	text-align: center;
 }
+
+.logo {
+	width: 15%;
+	margin: 10px 10px;
+}
+
+.product-pic {
+	width: 50%;
+	margin: 5px 2px;
+}
+
+/***********************************************************\
+  Setup for @media queries goes here
+  Note: 400px needs to change navigation links b/c of dd
+************************************************************/
 
 /***********************************************************\ 
   Everything below this comment is taken out of the html
