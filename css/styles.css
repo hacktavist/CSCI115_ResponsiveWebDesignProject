@@ -27,8 +27,6 @@ li a {
 	padding: 16px 16px;
 }
 
-
-
 /* Class Modifiers */
 .nav {
 	background-color: #EDEDED;
@@ -39,7 +37,7 @@ li a {
 }
 
 a:hover, .dd:hover .dbtn {
-	background-color: #b5b5b5 /*#acdacd*/;
+	background-color: #b5b5b5 /* #acdacd */;
 }
 
 .dd-content {
@@ -101,10 +99,38 @@ ul.stores {
 	margin: 5px 2px;
 }
 
+.bg-heading {
+	background-color: #EDEDED;
+}
+
+.tooltip {
+	display: inline;
+	position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(alt);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 140px;
+    height: 75px;
+}
+
 /***********************************************************\
-  Setup for @media queries goes here
-  Note: 400px needs to change navigation links b/c of dd
+  Media Query
 ************************************************************/
+@media only screen and (max-width: 1024px){
+	ul.stores{
+		display: none;
+	}
+}
 
 /***********************************************************\ 
   Everything below this comment is taken out of the html
